@@ -16,3 +16,4 @@
 8: Script to remove file "betty" from /tmp/holberton <br>
 9: Script to remove directory holberton/ from /tmp/holberton <br>
 10: Script to change to previous directory <br>
+11: Script to list files in current working directory, parent directory, and /boot (in that order) <br>
