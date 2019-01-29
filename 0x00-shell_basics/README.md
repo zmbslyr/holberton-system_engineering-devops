@@ -1,9 +1,9 @@
-//
-// README.md
-// txt
-//
-// Created by Mark Hedgeland on 1/29/2019
-//
+// <br>
+// README.md <br>
+// txt <br>
+// <br>
+// Created by Mark Hedgeland on 1/29/2019 <br>
+// <br>
 
 0: Script to display the full current working directory <br>
 1: Script to list all files in current directory <br>
@@ -12,3 +12,4 @@
 4: Script to list all files (including hidden files) in long format <br>
 5: Script to list all files (including hidden files) in long format organized by file <br>
 6: Script to create directory "holberton" in /tmp/ <br>
+7: Script to move file "betty" from /tmp to /tmp/holberton <br>
