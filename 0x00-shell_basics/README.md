@@ -15,3 +15,4 @@
 7: Script to move file "betty" from /tmp to /tmp/holberton <br>
 8: Script to remove file "betty" from /tmp/holberton <br>
 9: Script to remove directory holberton/ from /tmp/holberton <br>
+10: Script to change to previous directory <br>
