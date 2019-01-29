@@ -5,4 +5,5 @@
 // Created by Mark Hedgeland on 1/29/2019
 //
 
-Script to display the full current working directory
+0: Script to display the full current working directory
+1: List all files in current directory
