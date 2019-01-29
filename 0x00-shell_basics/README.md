@@ -13,4 +13,5 @@
 5: Script to list all files (including hidden files) in long format organized by file <br>
 6: Script to create directory "holberton" in /tmp/ <br>
 7: Script to move file "betty" from /tmp to /tmp/holberton <br>
-8: Script to delet file "betty" from /tmp/holberton <br>
+8: Script to remove file "betty" from /tmp/holberton <br>
+9: Script to remove directory holberton/ from /tmp/holberton <br>
