@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Prints a clock out to the console
+HOUR=0
+MINUTE=1
+while [  $HOUR -lt 13  ];
+do
+    echo "Hour: $HOUR"
+    while [  $MINUTE -lt 60  ];
+    do
+        echo $MINUTE
+        let MINUTE+=1
+    done
+    let HOUR+=1
+    let MINUTE=0
+done
