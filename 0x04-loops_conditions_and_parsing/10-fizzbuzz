@@ -3,13 +3,13 @@
 NUMBER=1
 while [  $NUMBER -lt 101  ];
 do
-    if (( $NUMBER % 15 == 0 ));
+    if (( NUMBER % 15 == 0 ));
     then
         echo "FizzBuzz"
-    elif (( $NUMBER % 5 == 0 ));
+    elif (( NUMBER % 5 == 0 ));
     then
         echo "Buzz"
-    elif (( $NUMBER % 3 == 0 ));
+    elif (( NUMBER % 3 == 0 ));
     then
         echo "Fizz"
     else
