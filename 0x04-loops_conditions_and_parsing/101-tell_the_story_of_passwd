@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Print a story about each entry in /etc/passwd
+while IFS=: read -r USER PASS USID GRID INFO HOME SHEL;
+do
+    echo "The user $USER is part of the $GRID gang, lives in $HOME and" \
+        "rides ${SHEL}. ${USID}'s place is protected by the passcode" \
+        "${PASS}, more infor about the user here: $INFO"
+done < /etc/passwd
