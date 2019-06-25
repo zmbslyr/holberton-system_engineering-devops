@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script to show all processes
+ps -fuxa
