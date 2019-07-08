@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Configures a server with custom requirments
+echo -e '127.0.0.2 localhost\n8.8.8.8 facebook.com' > hosts.new
+mv --force hosts.new /etc/hosts
