@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Print the IP addresses of attatched devices
+ifconfig | grep --only-matching --perl-regexp '(?<=inet addr:)\S+'
