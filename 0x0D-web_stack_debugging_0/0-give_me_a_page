@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Gives the server a name and starts the service
+echo 'ServerName localHost' >> '/etc/apache2/apache2.conf'
+service apache2 start
