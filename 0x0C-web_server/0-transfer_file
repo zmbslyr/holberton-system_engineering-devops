@@ -6,7 +6,7 @@ USER=$3
 SSH_KEY=$4
 if [ $# -ne 4 ];
 then
-    echo "Usage: 0-transfer_file FILE_PATH IP USER SSH_KEY"
+    echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
 else
     scp -i "$FILE_PATH" -o StrictHostKeyChecking=no \
         "$FILE_PATH" "$USER"@"$IP":~/
