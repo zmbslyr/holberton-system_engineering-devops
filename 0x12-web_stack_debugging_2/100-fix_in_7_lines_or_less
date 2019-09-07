@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Run Nginx as non-root user
 chmod u=rw,go=r '/etc/nginx/nginx.conf'
-sed -i -r 's/(listen.+)8(*.*)/\18080\2/' '/etc/nginx/sites-available/default'
+sed -i -r 's/(listen.+)80(.*)/\18080\2/' '/etc/nginx/sites-available/default'
 pkill 'apache2'
 sed -i -r 's/(.*)(start-stop-daemon.*)/\1sudo -u nginx \2/' '/etc/init.d/nginx'
 service nginx start
