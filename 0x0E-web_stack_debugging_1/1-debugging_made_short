@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Fix Nginx on a container that won't listen on port 80
+sed -i 's/8080/80/' /etc/nginx/sites-{available,enabled}/default
+nginx
+rm /var/run/nginx.pid
