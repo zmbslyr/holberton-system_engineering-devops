@@ -7,7 +7,7 @@ import requests
 if __name__ == "__main__":
     # Request data from website
     emp = requests.get(
-        "https://jsonplaceholder.typicode.com/todos?userId=" + sys.argv[1]
+        "https://jsonplaceholder.typicode.com/users/" + sys.argv[1]
     )
     todo = requests.get(
         "https://jsonplaceholder.typicode.com/todos?userId=" + sys.argv[1]
