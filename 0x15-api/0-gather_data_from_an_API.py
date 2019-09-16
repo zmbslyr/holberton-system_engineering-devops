@@ -3,6 +3,7 @@
 import sys
 import requests
 
+
 if __name__ == "__main__":
     # Request data from website
     emp = requests.get(
