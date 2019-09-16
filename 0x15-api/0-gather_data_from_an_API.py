@@ -26,6 +26,6 @@ if __name__ == "__main__":
         emp_name,
         len(comp_tasks),
         num_tasks)
-        )
+      )
     for task in comp_tasks:
         print("\t {}".format(task.get("title")))
