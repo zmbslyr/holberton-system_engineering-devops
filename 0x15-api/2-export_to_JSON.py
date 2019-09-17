@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Module to export API data into JSON format"""
-import sys
-import requests
 import csv
 import json
+import requests
+import sys
 
 
 if __name__ == "__main__":
