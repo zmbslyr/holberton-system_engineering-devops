@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Create data from an HTTP API"""
-import sys
 import requests
+import sys
 
 
 if __name__ == "__main__":
