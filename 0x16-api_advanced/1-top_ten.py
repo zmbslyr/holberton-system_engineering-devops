@@ -5,7 +5,7 @@ import requests
 
 def top_ten(subreddit):
     """print titles of first 10 hot posts listed for a given sub
-    
+
     Args:
         subreddit (str): subreddit to find top ten hot posts in
 
