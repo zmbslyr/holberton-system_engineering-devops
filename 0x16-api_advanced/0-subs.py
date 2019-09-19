@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/python3
 """Module to find number of subscribers to a subreddit using Reddit API"""
 import requests
 
