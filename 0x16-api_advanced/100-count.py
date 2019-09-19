@@ -27,7 +27,7 @@ def count_words(subreddit, word_list, hot_list=[], after=None):
         path += "&count=" + str(len(hot_list))
     headers = {
         "Connection": "keep-alive",
-        "User-Agent": "python:hbtn701t3:1 (by /u/SamHermesBoots)"
+        "User-Agent": "python:hbtn695:1"
     }
     resp = requests.get(path, headers=headers, allow_redirects=False)
     if resp.status_code != 200:
