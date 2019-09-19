@@ -12,10 +12,9 @@ def number_of_subscribers(subreddit):
     Return:
         Total subscribers to subreddit
     """
-    path = "https://www.reddit.com" + subreddit + "/about.json"
-    header = {"User_Agent": "Mozilla/5.0"}
-    print(path)
-    resp = requests.get(path, headers=header, allow_redirects=False)
+    user_agent = {'User-agent': 'Mozilla/5.0'}
+    url = "https://www.reddit.com/r/" + subreddit + "/about.json"
+    resp = requests.get(url, allow_redirects=False, headers=user_agent)
     if resp.status_code in (302, 404):
         return 0
-    return resp.json().get("data").get("subscribers")
+    return resp.json().get('data').get('subscribers')
