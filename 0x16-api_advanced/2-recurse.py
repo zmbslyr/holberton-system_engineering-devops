@@ -4,7 +4,8 @@ import requests
 
 
 def recurse(subreddit, hot_list=[], count=0, after=""):
-    """Function to recursively return list containing hot post titles for a given sub
+    """Function to recursively return list 
+       containing hot post titles for a given sub
 
     Args:
         subreddit   (str): subreddit to query
