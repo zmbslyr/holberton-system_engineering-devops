@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """Module to find frequency of key words in hot post"""
 import collections
-import json
-import urllib.parse
-import requests
 import io
+import json
+import requests
+import urllib.parse
 
 
 def count_words(subreddit, word_list, hot_list=[], after=None):
