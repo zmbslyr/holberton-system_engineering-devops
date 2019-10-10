@@ -1,4 +1,4 @@
-#Fixes low file limit in nginx server
+# Fixes low file limit in nginx server
 file { 'replace last line':
   ensure   => file,
   path     => '/etc/default/nginx',
